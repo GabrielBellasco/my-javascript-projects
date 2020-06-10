@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+        <title>Tasks</title>
+        <style>
+            body {
+                font-family: 'Balsamiq Sans', cursive;
+                background-color: whitesmoke;
+            }
+            ul {
+                background-color: rgb(0, 240, 240);
+                border-radius: 0 0 8px 8px;
+                padding: 10px;
+                width: 600px;
+                height: cover;/*300px*/
+                text-align: left;
+                list-style: none;
+                margin-top: 0px;
+                margin-left: 300px;
+            }
+            li {
+                display: flex;
+                justify-content: space-between;
+                background-color: rgb(0, 220, 220);
+                padding: 2px;
+                border-radius: 3px;
+                margin-top: 10px;
+            }
+            input {
+                width: 550px;
+                height: 30px;
+                border: 1px;
+                border-radius: 5px;
+                background-color: rgb(216, 216, 216);
+                margin-left: 300px;
+            }
+            button {
+                border-radius: 5px;
+                width: 70px;
+                height: 30px;
+                border: none;
+                background-color: rgb(216, 216, 216);
+            }
+            p{
+                background-color: rgb(0, 220, 220);
+                margin: 0;
+                padding: 5px;
+                width: 610px;
+                border-radius: 5px 5px 0 0;
+                margin-left: 300px;
+                
+            }
+            footer {
+                background-color: rgb(216, 216, 216);
+                margin-top: 10px;
+                padding: 10px;
+                border-radius: 5px;
+                width: 610px;
+                margin-left: 300px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="app">
+            <p>Task List</p>
+            <ul>   
+            </ul>
+            <input type="text" placeholder="Enter a task">
+            <button>Add</button>
+        </div>
+        <footer>
+            Made by Gabriel Bellasco
+        </footer>
+        <script src="./tasks.js"></script>
+    </body>
+</html>
