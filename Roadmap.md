@@ -1,4 +1,4 @@
-#**Roadmap**
+# Roadmap
 
 09/06/2020 - The beginning;     
 09/06/2020 - Added the first project: a simple calculator;     
