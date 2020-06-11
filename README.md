@@ -23,8 +23,9 @@ Gabriel Bellasco - Brasil :smile:
 
 
 # Links
+### See my projects
 
-Github page - [Javascript projects](https://gabrielbellasco.github.io/my-javascript-projects/);     
-Calculator - [Simple calculator](https://github.com/GabrielBellasco/my-javascript-projects/tree/master/_project-1);      
-TaskList - [Simple Task List](https://github.com/GabrielBellasco/my-javascript-projects/tree/master/project-2);      
+ Github page - [Javascript projects](https://gabrielbellasco.github.io/my-javascript-projects/);     
+ Calculator - [Simple calculator](https://github.com/GabrielBellasco/my-javascript-projects/tree/master/_project-1);      
+ TaskList - [Simple Task List](https://github.com/GabrielBellasco/my-javascript-projects/tree/master/project-2);      
 
