@@ -19,7 +19,8 @@ Gabriel Bellasco - Brasil :smile:
 09/06/2020 - Added the first project: a simple calculator;     
 10/06/2020 - Updated a simple calculator, added historic and an incomplete clear function in the calculator;     
 10/06/2020 - Added a simple task list;    
-11/06/2020 - Added a github page(in development);    
+11/06/2020 - Added a github page(in development);     
+13/06/2020 - Updated github page(in development);  
 
 
 # Links
