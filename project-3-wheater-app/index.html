@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/logo.jpg" type="image/x-icon">
+    <title>Clima</title>
+    <style>
+        body {
+            background: linear-gradient(180deg, rgba(0, 163, 255, 0.81) 8.85%, #FFFFFF 96.35%);
+            background-repeat: no-repeat;
+            background-size: 1900px 700px;
+            font-family: 'Roboto', sans-serif;
+        }
+        #search {
+            background-color: rgba(100, 148, 237, 0.822);
+            margin-left: 400px;
+            margin-right: 400px;
+            margin-top: 150px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 10px;
+            border-radius: 10px;
+            border: 1px solid rgb(47, 47, 47); 
+            box-shadow: 2px 2px rgb(47, 47, 47);
+            text-shadow: 1px 1px rgb(47, 47, 47); 
+            z-index: -1;      
+        }
+        #search input{
+            width: 500px;
+            height: 50px;
+            background-color: rgb(224, 224, 224);
+            border: 1px solid rgb(47, 47, 47); 
+            box-shadow: 2px 2px rgb(47, 47, 47);  
+        }
+        button {
+            width: 508px;
+            height: 50px;
+            background-color: rgba(137, 178, 255, 0.822);
+            margin-top: 20px;
+            border: 1px solid rgb(47, 47, 47); 
+            box-shadow: 2px 2px rgb(47, 47, 47);  
+            transition: 500ms;
+        }
+        button:hover {
+            background-color: rgba(95, 151, 255, 0.822);
+        }
+        #weather {
+            background-color: rgb(100, 148, 237);
+            margin-left: 400px;
+            margin-right: 400px;
+            margin-top: 130px;
+            width: 600px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 10px;
+            border-radius: 10px;
+            border: 1px solid rgb(47, 47, 47); 
+            box-shadow: 2px 2px rgb(47, 47, 47);
+            text-shadow: 1px 1px rgb(47, 47, 47);
+            position: absolute;
+            top: 0px;
+            z-index: 1;
+        }
+        #weather input {
+            background-color: rgb(100, 148, 237);
+            color: black;
+            font-weight: bolder;
+            font-size: 20px;
+        }
+        .hide {
+            display: none;
+        }
+        input[id='temp'] {
+            height: 150px;
+            border-radius: 100px;
+            border: 2px solid black;
+            width: 150px;
+            text-align: center;
+            margin-left: 30px;
+        }
+        input[id="city"]{
+            border: none;
+            margin-bottom: 20px;
+        }
+        #content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        input[id='weatherDescription']{
+            height: 40px;
+            margin-top: 40px;
+            border: none;
+        }
+        input[id='humidity']{
+            margin-top: 15px;
+            border: none;
+            font-weight: 300;
+        }
+        input[id='wind']{
+            margin-top: 15px;
+            border: none;
+            font-weight: 300;
+        }
+    </style>
+</head>
+<body>
+    <div id="search">
+        <h1>Search Weather by City</h1>
+        <input type="text" id="input" placeholder="Enter a City">
+        <button id="submit">Search Weather</button>
+        <h3>By Gabriel Bellasco</h3>
+    </div>
+    <div id="weather" class="hide">
+        <div id="content">
+            <input type="text" id="city" disabled>
+            <img src="./img/logo.jpg" id="img">
+            <input type="text" id="temp" disabled>
+            <input type="text" id="weatherDescription" disabled>
+            <input type="text" id="humidity" disabled>
+            <input type="text" id="wind" disabled>
+        </div>
+        <h3>By Gabriel Bellasco</h3>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
