@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+    <link rel="shortcut icon" href="./imgs/logo.png" type="image/x-icon">
+    <style>
+        @font-face {
+            font-family: clockdigit;
+            src: url('DS-DIGIT.TTF');
+        }
+        body{
+            font: 35px clockdigit;
+            color: whitesmoke;
+            background-color: rgb(39, 39, 39);
+            background-color: rgb(235, 235, 235);
+        }
+        #clock {
+            border: 10px solid rgb(20, 20, 20);
+            background-color: black;
+            box-shadow: 5px 5px black;
+            border-radius: 5px;
+            width: 300px;
+            margin-top: 100px;
+            margin-left: 450px;
+            padding-left: 3px;
+            padding-right: 3px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 0px;
+            row-gap: 1px;
+            height: 190px;
+        }
+        h1 {
+            margin-bottom: 2px;
+            direction: rtl;
+            color: red;
+        }
+        #visor {
+            background-color: rgb(10, 10, 10);
+            position: absolute;
+        }
+        h5 {
+            margin-left: 450px;
+            margin-bottom: 5px;
+            color: black;
+            font-weight: bold;
+        }
+        h6{
+            margin-top: 13px;
+            z-index: 2;
+        }
+        h4 {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div id="clock">
+        <h1 id="h1"></h1>
+        <h4 id="h4"></h4>
+        <h6 id="day"></h6>
+        <h6 id="h6"></h6>
+    </div>
+    <h5>Made by Gabriel Bellasco</h5>
+    <script src="./index.js"></script>
+</body>
+</html>
