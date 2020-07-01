@@ -23,7 +23,7 @@ Gabriel Bellasco - Brasil :smile:
 11/06/2020 - Added a github page(in development);     
 13/06/2020 - Updated github page(in development);        
 28/06/2020 - Added a weather app project;   
-01/07/2020 - Update some things
+01/07/2020 - Update some things;    
 
 
 # Links
@@ -32,6 +32,6 @@ Gabriel Bellasco - Brasil :smile:
  Github page - [Javascript projects](https://gabrielbellasco.github.io/my-javascript-projects/);     
  Project 1 - [Simple calculator](https://github.com/GabrielBellasco/my-javascript-projects/tree/master/_project-1);      
  Project 2 - [Simple Task List](https://github.com/GabrielBellasco/my-javascript-projects/tree/master/project-2);    
- Project 3 - [Weather App](https://github.com/GabrielBellasco/my-javascript-projects/tree/master/project-3-wheater-app); 
- Project 4 - [A Clock](https://github.com/GabrielBellasco/my-javascript-projects/tree/master/project-4-a-clock)
+ Project 3 - [Weather App](https://github.com/GabrielBellasco/my-javascript-projects/tree/master/project-3-wheater-app);        
+ Project 4 - [A Clock](https://github.com/GabrielBellasco/my-javascript-projects/tree/master/project-4-a-clock);      
 
