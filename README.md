@@ -1,3 +1,4 @@
+![JavaScript Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png)
 # English -
 
 **Hello, this repository contains my javascript projects, since my first ones (actually not so long ago), some will be simple but will be here to show my evolution in javascript programming. (This repository is constantly evolving, and will have changes over time)**
