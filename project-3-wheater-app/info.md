@@ -1,3 +1,4 @@
+![A screenshot](./mainpageWeather.PNG)
 # English
   This project is an application that shows the weather, it does this by collecting data from an [OpenWheater](https://openweathermap.org/) api and showing data on the screen, well ... my designer side is not so good, but i think it's cool.
 # Português
